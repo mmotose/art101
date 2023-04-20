@@ -1,5 +1,15 @@
 /* this css file will only style the homepage of our site */
 
 #my-portrait {
+  align-content: right;
   width: 300px;
+  max-width: 100%;
+  max-height:100%;
+  margin:auto;
+  border-radius: 8px;
 }
+
+ 
+ .text {
+   font-size: 70px;
+ }
