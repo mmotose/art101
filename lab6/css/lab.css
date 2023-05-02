@@ -4,6 +4,13 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #eb0a0a;
+    background-color: #5199e7;
+    color:#642d2d
+  }
+
+  div.image {
+    position: relative;
+    right: 100px;
+    float: right;
   }
