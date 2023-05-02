@@ -8,7 +8,8 @@ function sortUsername(){
     var userName = window.prompt("Please enter your name. I'm going to fix it.");
     console.log("userName =", userName);
     userName = userName.toLowerCase();
-
+    userName.replace(/( )/g, "");
+    
     //make string into array
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
