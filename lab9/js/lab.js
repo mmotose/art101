@@ -22,7 +22,6 @@ outputEl.appendChild(new1El);
 outputEl.appendChild(new2El);
 outputEl.insertBefore(new3El, new1El);
 
-output
 //decorate
 new1El.style.color = "yellow";
 new1El.style.fontFamily = "Chiller";

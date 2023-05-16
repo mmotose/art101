@@ -1,0 +1,27 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #2f3055;
+    background-color: #521b31;
+    color:#a5a668
+  }
+
+#challenge h2{
+  font-size: 28px;
+  color: rgb(0, 255, 98);
+}
+#problems h2{
+  font-size: 28px;
+  color: rgb(255, 111, 0);
+}
+#results h2{
+  font-size: 28px;
+  color: rgb(38, 255, 0);
+}
+#output h2{
+  font-size: 28px;
+  color: rgb(255, 123, 0);
+}
