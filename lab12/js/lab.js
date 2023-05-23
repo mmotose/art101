@@ -30,15 +30,15 @@ $("#button").click(function(){
 
   // add house to the output/house div
   $("#house").html("<h1 class='house'>" + "The sorting hat has sorted you into " + house + "</h1>");
-  // if(house == "Gryffindor"){
-  //   $("#house").append("<p class='Gryffindor'>You are strong and brave but kinda dumb");
-  // }else if(house == "Ravenclaw"){
-  //   $("#house").append("<p class='Ravenclaw'>You are GINORMOUS BRAIN but need to touch grass you nerd");
-  // }else if(house == "Slytherin"){
-  //   $("#house").append("<p class='Slytherin'>Bad guys, too smart for your own good, you baddie");
-  // }else if(house == "Hufflepuff"){
-  //   $("#house").append("<p class='Hufflepuff'>Loyal cinnamonbuns");
-  // }
+  if(house == "Gryffindor"){
+    $("#house").append("<p class='Gryffindor'>You are strong and brave but kinda dumb");
+  }else if(house == "Ravenclaw"){
+    $("#house").append("<p class='Ravenclaw'>You are GINORMOUS BRAIN but need to touch grass you nerd");
+  }else if(house == "Slytherin"){
+    $("#house").append("<p class='Slytherin'>Bad guys, too smart for your own good, you baddie");
+  }else if(house == "Hufflepuff"){
+    $("#house").append("<p class='Hufflepuff'>Loyal cinnamonbuns");
+  }
 })
 
 
