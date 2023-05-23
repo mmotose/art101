@@ -1,10 +1,45 @@
 // Author: Miyuki Motose
 // Date: 5/23/2023
 
+//Figure out what house the name is in
+function sortingHat(str){
+  var length = str.length;
+  var mod = length % 4;
 
-$(".sectionbox").append("<button class='my-button'>Toggle Button</button>");
+  if(mod == 0){
+    return "Gryffindor";
+  }else if(mod == 1){
+    return "Ravenclaw";
+  }else if(mod == 2){
+    return "Slytherin";
+  }else if(mod == 3){
+    return "Hufflepuff";
+  }
+}
 
-$(".my-button").click(function(){
-  $(this).parent().toggleClass("special");
-});
+
+$("#button").click(function(){
+
+  // get name
+  var name = $("#input").val();
+  console.log(name);
+
+  // get house
+  var house = sortingHat(name);
+  console.log(house);
+
+  // add house to the output/house div
+  $("#house").html("<h1>" + "The sorting hat has sorted you into " + house + "</h1>");
+  // if(house == "Gryffindor"){
+
+  // }else if(house == "Ravenclaw"){
+
+  // }else if(house == "Slytherin"){
+
+  // }else if(house == "Hufflepuff"){
+
+  // }
+})
+
+
 
