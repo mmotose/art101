@@ -20,3 +20,15 @@ numbers.map(function(x){
     return results;
 }));
 
+//This is for Task X
+
+var mapResults = numbers.map(function(x){
+                    var results = x * 2;
+                    return results; 
+        });
+
+
+var outputEl = document.getElementById("output"); 
+outputEl.innerHTML = "The square root of " + numbers[0] + " is " + calculate(numbers[0]) + ". <br>" + 
+                    "The square root of " + numbers + " are " + numbers.map(calculate) + ", respectively.</br>" +
+                    "The double of the numbers are " + mapResults + ".";
