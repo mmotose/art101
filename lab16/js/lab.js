@@ -3,9 +3,10 @@
 
   $.ajax({
     url: "https://xkcd.com/info.0.json",
+    data: {},
     type: "GET",
     dataType: "json",
-    success: function(data){
+    success: function(comicObj){
       var title = comicObj.title;
       var imgUrl = comicObj.img;
       var altText = comicObj.alt;
